@@ -1,4 +1,7 @@
 {
   "buildCommand": "NITRO_PRESET=vercel pnpm build",
-  "framework": "nitro"
+  "framework": "nitro",
+  "env": {
+    "AGENT_NATIVE_VERCEL_CRON_SCHEDULE": "0 9 * * *"
+  }
 }
